@@ -1,38 +1,82 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Mukta&display=swap');
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  color: #fff;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+#root{
+  width: 100vw;
+  height: 100vh;
   display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #711A75;
+}
+
+#main{
+  /* background-color: #180A0A; */
+  background-color: #000;
+  width: 60vw;
+  height: 90vh;
+  display: flex;
+  align-items: center;
   flex-direction: column;
+  border-radius: 15px;
+  font-family: 'Mukta', sans-serif;
+}
+#heading{
+  /* background-color: yellow; */
+  height: 30%;
+  width: 90%;
+  display: flex;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-direction: column;
 }
 
-.App-link {
-  color: #61dafb;
+#content{
+  /* background-color: green; */
+  display: flex;
+  width: 90%;
+  height: 70%;
+   align-items: center; 
+   justify-content: center;
+  flex-direction: column;
+   
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#content input{
+  border: none;
+  color: #000;
+  border-radius: 5px;
+  height: 50px;
+  width: 60%;
+  font-size: 30px;
+  margin: 20px 0;
 }
+#content form{
+  /* background-color: yellow; */
+  display: flex;
+  width: 90%;
+  height: 70%;
+   align-items: center; 
+   justify-content: center;
+  flex-direction: column;
+  
+}
+.btn_styles{
+  background-color: #F10086;
+  border-radius: 15px;
+  font-size: 1.2rem;
+  height: 60px;
+  width: 150px;
+  margin: 20px;
+  
+}
+#content h2{
+  margin: 0 45px;
+}
+
+
+ 
